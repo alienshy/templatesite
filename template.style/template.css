@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding: 0 32px;
+  max-width: 1300px;
+}
+
+nav {
+  width: 100%;
+  height: 150px;
+}
+nav .greendiv {
+  background-color: #a5c926;
+  width: 100%;
+  height: 30px;
+}
+nav .greendiv .parantez {
+  height: 100%;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav .greendiv .parantez ul {
+  display: flex;
+  gap: 10px;
+}
+nav .greendiv .parantez ul i {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999999px;
+  background-color: #a5c926;
+  cursor: pointer;
+}
+nav .greendiv .parantez ul i:hover {
+  filter: brightness(90%);
+}
+nav .whitediv {
+  width: 100%;
+  height: 80px;
+}
+nav .whitediv .parant {
+  height: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav .whitediv .parant .whitediv1 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+nav .whitediv .parant .whitediv1 a {
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  text-decoration: none;
+}
+nav .whitediv .parant .whitediv1 ul {
+  color: rgba(0, 0, 0, 0.548);
+  height: 100%;
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  align-items: center;
+}
+nav .whitediv .parant .whitediv1 ul li {
+  cursor: pointer;
+  margin-top: 3px;
+}
+nav .whitediv .parant .whitediv1 ul li:hover {
+  text-decoration: underline;
+}
+nav .whitediv .parant .whitediv2 {
+  display: flex;
+  align-items: center;
+  width: 10%;
+}
+nav .whitediv .parant .whitediv2 .cart {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+nav .whitediv .parant .whitediv2 .cart span {
+  border-radius: 99999px;
+  color: white;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a5c926;
+}
+nav .whitediv .parant .whitediv2 button {
+  font-size: 24px;
+  border: none;
+  display: none;
+}/*# sourceMappingURL=template.css.map */
