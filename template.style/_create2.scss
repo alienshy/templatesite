@@ -1,4 +1,4 @@
-.create {
+.create2 {
     width: 100%;
     height: 500px;
     background-color: #f8f8f8;
@@ -27,9 +27,8 @@
             &:hover {
                 transform: scale(1.05);
             }
-
             gap: 10px;
-
+            
 
             p {
                 font-size: 20px;
@@ -51,7 +50,7 @@
                 color: white;
                 transition: 0.3s ease;
                 cursor: pointer;
-
+    
                 &:hover {
                     transform: scale(1.05);
                 }
@@ -59,8 +58,7 @@
         }
     }
 }
-
-.margin1 {
+.margin2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -71,7 +69,6 @@
     p {
         font-size: 30px;
         border-bottom: 2px solid $color;
-        position: relative;
     }
 
     button {
@@ -86,21 +83,19 @@
         }
     }
 }
-
 @media (max-width: 900px) {
 
-    .create {
+    .create2 {
         width: 100%;
         height: 600px;
         background-color: #f8f8f8;
-        padding-top: 50px;
-
+        position: relative;
+        top: 100px;
         .split {
             display: flex;
             flex-wrap: wrap;
             width: 100%;
             height: 600px;
-
             .sfg {
                 width: 45%;
                 height: 270px;
@@ -112,26 +107,21 @@
 
                 p {
                     font-size: 15px;
-
+    
                 }
-
+    
                 img {
                     width: 100%;
                     height: 120px;
                 }
-
+    
                 button {
                     width: 60%;
                     height: 30px;
 
                 }
             }
-        }
-
-        .margin2 {
-            border-bottom: none;
-
-        }
+        }  
     }
 
 }

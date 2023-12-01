@@ -54,3 +54,27 @@ section {
 
     }
 }
+@media only screen and (max-width: 1024px) {
+    section {
+        .section1 {
+            width: 80%;
+            max-width: 600px;  
+            .def {
+                width: 90%;
+                font-size: 24px;
+                font-weight: 400;
+            }
+            .greenopen {
+                width: 70%;
+            }
+        }
+    }
+    
+
+
+
+
+
+
+
+}

@@ -1,9 +1,8 @@
 $color: #a5c926;
-
-
-
-
-
+$colorback:#f8f8f8;
+body{
+    background-color: #f8f8f8;
+}
 *{
     padding: 0;
     margin: 0;
@@ -21,4 +20,14 @@ $color: #a5c926;
 @import 'section';
 @import 'header';
 @import 'create';
+@import 'create2';
+@import 'section2';
+@import 'fatality';
+@import 'gradediv';
+@import 'search';
+@import 'finish';
+@import 'foother';
+
+
+
 

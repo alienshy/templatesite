@@ -1,6 +1,7 @@
 header {
     width: 100%;
     height: 500px;
+    background-color: #f8f8f8;
 
     .headerdiv {
         width: 100%;
@@ -115,7 +116,11 @@ header {
         padding:40px 0;
         .headerdiv1,
         .headerdiv2 {
-            min-width: 80%;
+            min-width: 90%;
+            height: 30%;
         }
+        .margin1{
+            position: relative;
     }
+}
 }

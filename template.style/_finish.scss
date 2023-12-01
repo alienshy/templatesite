@@ -1,0 +1,119 @@
+.finish {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: $colorback;
+
+    .finishg {
+        width: 100%;
+        height: 480px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 30px;
+
+        button {
+            border-radius: 30px;
+            border: none;
+            background-color: $color;
+            height: 50px;
+            width: 15%;
+            color: white;
+            cursor: pointer;
+            font-size: 17px;
+            transition: 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+        }
+
+        .condiv1 {
+            width: 30%;
+            gap: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                color: $color;
+            }
+
+            h1 {
+                width: 100%;
+                text-align: center;
+                font-family: 'Varela Round', sans-serif;
+                font-size: 32px;
+                line-height: 40px;
+                font-weight: 400;
+            }
+
+        }
+
+        .condiv2 {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            justify-content: space-between;
+
+            .imgdiv {
+                width: 15%;
+                height: 200px;
+
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 95%;
+                    border-radius: 20px;
+                    cursor: pointer;
+                    transition: 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .finish {
+
+        .finishg {
+
+            button {
+
+
+                width: 30%;
+                font-size: 13px;
+
+
+            }
+
+            .condiv1 {
+                width: 70%;
+            }
+
+            .condiv2 {
+                width: 100%;
+                height: 500px;
+                display: flex;
+                flex-wrap: wrap;
+
+                .imgdiv {
+                    width: 30%;
+                    height: 130px;
+
+                }
+            }
+        }
+    }
+
+}
