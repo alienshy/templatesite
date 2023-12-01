@@ -69,12 +69,26 @@ section {
             }
         }
     }
-    
+}
+/* Ekranın ortasına gelecek bir modal stili ekleyelim */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
 
+.modal-content {
+    width: 300px; /* İhtiyaca göre genişliği ayarlayın */
+}
 
-
-
-
-
-
+/* Kapatma düğmesi stili */
+.close {
+    float: right;
+    cursor: pointer;
 }

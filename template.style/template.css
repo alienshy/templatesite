@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   background-color: #f8f8f8;
 }
@@ -145,6 +146,35 @@ nav .whitediv .parant .whitediv2 button {
   display: flex;
 }
 
+nav {
+  position: fixed;
+  width: 100%;
+  height: 50px; /* Değiştirilen satır */
+  z-index: 1;
+  transition: background-color 0.5s, height 0.5s;
+}
+
+.greendiv {
+  background-color: green;
+  height: 30px;
+  transition: transform 0.5s;
+}
+
+.whitediv {
+  background-color: white;
+  height: 80px;
+  transition: background-color 0.5s; /* Yeni eklenen satır */
+}
+
+.nav-scrolled {
+  background-color: black;
+  height: 50px;
+}
+
+.whitediv, .whitediv1, .whitediv2, a, li {
+  transition: all 0.5s;
+}
+
 section {
   width: 100%;
   height: 700px;
@@ -209,6 +239,29 @@ section .section1 .greenopen:hover {
     width: 70%;
   }
 }
+/* Ekranın ortasına gelecek bir modal stili ekleyelim */
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.modal-content {
+  width: 300px; /* İhtiyaca göre genişliği ayarlayın */
+}
+
+/* Kapatma düğmesi stili */
+.close {
+  float: right;
+  cursor: pointer;
+}
+
 header {
   width: 100%;
   height: 500px;
